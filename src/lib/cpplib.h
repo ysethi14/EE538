@@ -11,7 +11,7 @@
 class CPPLib {
  public:
   std::string PrintHelloWorld();
-
+ double FindAverage(std::vector<int> &inputs);
   // Calculates the Nth Fibonacci number
   int fib(int N);
   
@@ -20,5 +20,11 @@ class CPPLib {
   
   private : std::map<int, int> _m;
 };
+//class CPPLib {
+//public:
+ // A very first question: Find Average in an vector
+// double FindAverage(std::vector<int> &inputs);
+
+//};
 
 #endif

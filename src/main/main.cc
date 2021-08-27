@@ -5,7 +5,7 @@
 int main() {
   // Print Hello world!
   CPPLib s;
-  // std::cout << s.PrintHelloWorld() << std::endl;
+   std::cout << s.PrintHelloWorld() << std::endl;
 
   std::cout << s.fib(6) << std::endl;
   std::cout << s.fib(4) << std::endl;

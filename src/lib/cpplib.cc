@@ -15,6 +15,16 @@ int CPPLib::fib(int N) {
 
   return fib(N - 1) + fib(N - 2);
 }
+double CPPLib::FindAverage(std::vector<int> &inputs) {
+ if (inputs.size() == 0) {
+   return -1;
+ }
+ double result = 0;
+ for (auto n : inputs) {
+   result += n;
+ }
+ return result / (inputs.size());
+}
 
 int CPPLib::FindMax(const std::vector<int> &inputs) {
   if (inputs.size() == 0) {
